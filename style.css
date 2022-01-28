@@ -1,0 +1,38 @@
+.TopContent {
+    background-color : #1F2937;
+     }
+.container,.section{
+display :flex;
+justify-content: space-evenly;
+}
+
+.logo {
+box-sizing: border-box;
+margin-right: auto;
+
+}
+ .links{
+     display :flex;
+     justify-content:space-between;
+     gap:60px;
+     font-size:14px;
+     color:#F9F8F7;
+
+ }
+.section {
+
+    flex-wrap: wrap;
+}
+ .IMG{
+     flex : 1 1 10%;
+     margin-right: 100px;
+     margin-bottom: 20px;
+background-color : #F9F8F7;
+ }
+.text1 {
+    flex : 1 1 40%;
+font-size : 48px;
+font-weight : extra-bold;
+ color : #F9F8F7;
+
+}
